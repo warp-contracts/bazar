@@ -12,7 +12,7 @@ async function main() {
 
   // deploy contracts
   const { contractTxId: ucmContractTxId } = await warp.deployFromSourceTx({
-    srcTxId: '7qv5x9A0NgAlTdMnBc1H2HFvN-te0kzzuT9RNt_66g8',
+    srcTxId: 'LBcYEl2zwKDApj1Cow1_BYyiicxVV7OCZTexsjk6mB4',
     initState: ucmInitialState,
     wallet: new ArweaveSigner(wallet),
     evaluationManifest: {
